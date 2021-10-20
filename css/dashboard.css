@@ -1,0 +1,105 @@
+.container { padding-top:10px}
+.rounded { width:100px}
+.img-thumbnail { width:80px!important}
+#overlay {
+    background: #ffffff;
+    color: #666666;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: 5000;
+    top: 0;
+    left: 0;
+    float: left;
+    text-align: center;
+    padding-top: 25%;
+    opacity: .80;
+  }
+  
+  @media(max-width: 890px){
+    .table img{
+      max-width: 60px;
+    }
+     .container{
+       justify-content: center;
+     }
+    .container h4{
+      font-size: 15px;
+    }
+     .container .alert{
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+     }
+
+     
+     .container .table{
+      font-size: 10px;
+     }
+
+     #searchinput{
+       align-content: center;
+       font-size: 10px;
+     }
+
+     .container .novo i{
+      font-size: 10px;
+     }
+
+     .container .novo button{
+       font-size: 10px;
+     }
+  }
+  
+  @media(max-width: 768px){
+    .table a{
+      display: flex;
+      padding-bottom: 5px;
+      max-width: 40px;
+      margin-bottom: 4px;
+    }
+
+    .table img{
+      max-width: 100px;
+    }
+    
+    
+  }
+
+  @media(max-width: 470px){
+    .table a{
+      display: flex;
+      padding-bottom: 5px;
+      max-width: 40px;
+      margin-bottom: 4px;
+    }
+
+    .table img{
+      max-width: 30px;
+    }
+    
+    
+  }
+
+  @media(max-width: 450px){
+
+    .container .table{
+      font-size: 8px;
+    }
+    .table a{
+      font-size: 10px;
+      padding-bottom: 5px;
+      max-width: 35px;
+      margin-bottom: 4px;
+    }
+
+    .table{
+      margin-right: 10px;
+      padding-right: 10px;
+    }
+
+    #pagination{
+      font-size: 10px;
+    }
+  }
