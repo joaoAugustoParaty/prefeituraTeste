@@ -49,6 +49,7 @@
     -webkit-box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
     box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
     text-align: center;
+    border: 2px solid #f0974e;
   }
   
   #formFooter {
@@ -58,6 +59,7 @@
     text-align: center;
     -webkit-border-radius: 0 0 10px 10px;
     border-radius: 0 0 10px 10px;
+    
   }
   
   
@@ -134,7 +136,7 @@
   
   input[type=email]:focus, input[type=password]:focus {
     background-color: #fff;
-    border-bottom: 2px solid #f0974e;;
+    border-bottom: 2px solid #f0974e;
   }
   
   input[type=email]:placeholder, input[type=password]:placeholder {
@@ -259,7 +261,13 @@
   } 
   
   #icon {
-      padding-top: 5px;
-    width:40%;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+      z-index: 900;
+      background-color: #fff;
+    margin-top: -15%;
+    border: 2px solid #f0974e;
+    padding: 15px;
+    width:50%;
   }
   
